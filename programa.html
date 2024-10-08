@@ -8,9 +8,35 @@
 </head>
 <body>
     <script>
-        document.write('meu nome e Leandro e minha idade é: '  + (2024 - 2009))
-        document.write('<br><br>')
-        document.write(' meu nome e gustavo e minha idade é:  '  + (2024 - 2000))
+
+        function pulaLinha(){
+            document.write('<br><br>')
+        }
+        
+        function mostra(texto){
+            document.write(texto)
+            pulaLinha()
+        }
+
+       let ano = 2024
+       let minhaidade = ano - 2009
+       let idadeGustavo = ano - 2000
+
+        mostra('meu nome e Leandro e minha idade é: '  + minhaidade)
+        mostra(' meu nome e gustavo e minha idade é:  '  + idadeGustavo)
+        let media = (minhaidade + idadeGustavo)/3
+        
+        mostra('A medias das idades é: ' + media)
+
+        ano = 2030
+
+        
+        mostra('no ano de ' + ano)
+        mostra('minha idade será:  ' + (ano - 2009))
+        mostra(' e gustavo terá  '  + (ano - 2000))
+        
+
+
     </script>
 </body>
 </html>
