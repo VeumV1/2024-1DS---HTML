@@ -1,0 +1,39 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+</style>
+*{
+margin: 0;
+padding: 0;
+}
+
+:root{
+   --fonte-titulo:;"Anton", sans-serif;
+   --fonte-texto:;"Anton", serif;
+    --cor1: #780000ff;
+--cor2: #c1121fff;
+--cor3: #fdf0d5ff;
+--cor4: #003049ff;
+--cor5: #669bbcff;
+}
+body{
+    background-color:darkviolet 
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+    background-color: aliceblue
+    padding: 2em;
+    color: purple;
+    text-align: center;
+    font-family:
+    font-size: 1,5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+ text-decoration: none;
+ color: indigo;
+}
